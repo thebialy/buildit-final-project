@@ -41,6 +41,7 @@ body {
 }
 .terminal-title{
     text-align: center;
+    padding: 0 25%;
 }
 .red { 
     background: #EC6A5F; 
@@ -69,8 +70,8 @@ body {
 }
 
 
-.post-container{
-    width: 75.8vw;
+.vote-container {
+    margin: auto 0;
 }
 
 .vote-font {

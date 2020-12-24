@@ -42,9 +42,9 @@ export function PostListed({ post, signedIn }) {
             </div>
             <div className="terminal-title">{post.user.display_name} -- -bash -- 70x32 </div>
         </div>
-        <div className="flex post-container">
+        <div className="flex post-container bg-black">
 
-            <div className="flex flex-col items-center pl-3 pb-1 bg-black pt-2 pr-5">
+            <div className="flex flex-col items-center pl-3 pb-1 pt-1 pr-5 vote-container">
                 <div>
                     <div 
                         className="cursor-pointer bg-gray-700 hover:bg-green-700 rounded-full hover:text-white"
