@@ -24,7 +24,7 @@ async function handleSubmit(event) {
 
     return (
         <div className="flex flex-col max-w-xl mx-auto shadow p-4 my-12">
-            <div className="text-center text-gray-700 pb-4">REGISTER</div>
+            <div className="text-center pb-4 text-white">REGISTER</div>
                 <form onSubmit={handleSubmit}>
                     <div className="flex flex-col">
                         <input 
@@ -42,9 +42,9 @@ async function handleSubmit(event) {
                             onChange={(event) => setPassword(event.target.value)}
                         />
                         <div className="flex justify-center">
-                            <button className="bg-indigo-700 text-white px-4 py-2">Register!</button> 
+                            <button className="bg-black border border-green-800 text-white px-4 py-2">Register!</button> 
                         </div>
-                        <div className="pt-6 text-center text-gray-700">
+                        <div className="pt-6 text-center text-white">
                             Have an account already?{" "} 
                             <Link href="/login">
                                 <a className="text-indigo-700 hover:underline">Login</a>
