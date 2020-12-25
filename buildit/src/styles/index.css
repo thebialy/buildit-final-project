@@ -3,7 +3,6 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 }
-
 .post-body {
     width: 100vw;
     font-family: 'Space Mono', monospace;
@@ -19,6 +18,7 @@ body {
     border-radius: 5px 5px 0 0;
     position: relative;
 }
+
 .terminal-top {
     background: #E8E6E8;
     color: black;
@@ -39,18 +39,22 @@ body {
     border-width: 1px;
     border-style: solid;
 }
+
 .terminal-title{
     text-align: center;
     padding: 0 25%;
 }
+
 .red { 
     background: #EC6A5F; 
     border-color: #D04E42; 
 }
+
 .green { 
     background: #64CC57; 
     border-color: #4EA73B; 
 }
+
 .yellow{ 
     background: #F5C04F; 
     border-color: #D6A13D; 
@@ -62,13 +66,14 @@ body {
     padding: 8px;
     overflow: auto;
 }
+
 .space {
     margin: 25px;
 }
+
 .shadow { 
     box-shadow: 0px 0px 10px rgba(0,0,0,.4)
 }
-
 
 .vote-container {
     margin: auto 0;

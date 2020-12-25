@@ -23,7 +23,7 @@ export default function Register () {
 
     return (
         <div className="flex flex-col max-w-xl mx-auto shadow p-4 my-12">
-            <div className="text-center text-gray-700 pb-4">LOGIN</div>
+            <div className="text-center text-white pb-4">LOGIN</div>
                 <form onSubmit={handleSubmit}>
                     <div className="flex flex-col">
                         <input 
@@ -43,10 +43,10 @@ export default function Register () {
                         <div className="flex justify-center">
                             <button className="bg-indigo-700 text-white px-4 py-2">Login!</button> 
                         </div>
-                        <div className="pt-6 text-center text-gray-700"> 
-                            Don't have an account?{" "} 
+                        <div className="pt-6 text-center text-white"> 
+                            Don't have an account? {""}
                             <Link href="/register">
-                                <a className="text-indigo-700 hover:underline">Register</a>
+                                <a className="text-white hover:underline">Register</a>
                             </Link>
                         </div>       
                     </div>
