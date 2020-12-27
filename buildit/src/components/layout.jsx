@@ -40,7 +40,7 @@ export function UserHeader() {
             <div 
                 onClick={() => {
                 auth.logout()
-                router.push("/login");
+                router.push("/");
             }} 
             className="cursor-pointer"
             > 
