@@ -53,6 +53,7 @@ export default function New() {
         </div>
         <div className="py-2">
           <textarea 
+            rows="6"
             type="text" 
             placeholder="Description" 
             className="border rounded px-2 py-1 my-2 w-full"
