@@ -16,7 +16,7 @@ export default function Register () {
         try {
             await auth.login(email, password);
         } catch (error) {
-            return alert("Incorrect email or passowrd.")
+            return alert("Incorrect email or password.")
         }
         router.push("/")
     }
@@ -44,7 +44,7 @@ export default function Register () {
                             <button className="bg-black text-white px-4 py-2 border border-green-900">Login!</button> 
                         </div>
                         <div className="pt-6 text-center text-white flex justify-center"> 
-                            Don't have an account?{" "} 
+                            Don't have an account? 
                             <Link href="/register">
                                 <a className="text-indigo-700 hover:underline">Register</a>
                             </Link>
