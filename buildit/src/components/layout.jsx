@@ -58,10 +58,10 @@ export function Header() {
     <div className="flex items-center justify-between text-white p-4 nav-bar">
         <div className="flex"> 
             <SvgTerminal/>
-            <Link href="/">
+           { <Link href="/">
                 <a>console.log</a>
 
-            </Link>
+            </Link>}
         </div>
         <div className="flex items-center">
             {signedIn && <div className="px-4">
