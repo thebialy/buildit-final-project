@@ -56,7 +56,13 @@ export function Header() {
 
     return (
     <div className="flex items-center justify-between text-white p-4 nav-bar">
-         <div className="flex"> <SvgTerminal/>console.log</div>
+        <div className="flex"> 
+            <SvgTerminal/>
+            <Link href="/">
+                <a>console.log</a>
+
+            </Link>
+        </div>
         <div className="flex items-center">
             {signedIn && <div className="px-4">
                 <Link href="/new">
@@ -84,6 +90,7 @@ export function Header() {
     </div>
     )
 }
+
 export function Main({children}) {
     return (<div className="container mx-auto px-4">
         {children}
