@@ -41,12 +41,12 @@ export default function Register () {
                             onChange={(event) => setPassword(event.target.value)}
                         />
                         <div className="flex justify-center">
-                            <button className="bg-black text-white px-4 py-2 border border-green-900">Login!</button> 
+                            <button className="bg-black text-white px-4 py-2 btn">Login!</button> 
                         </div>
                         <div className="pt-6 text-center text-white flex justify-center"> 
-                            Don't have an account? 
+                            Don't have an account?  &nbsp;
                             <Link href="/register">
-                                <a className="text-indigo-700 hover:underline">Register</a>
+                                <a className="a-btn underline">Register</a>
                             </Link>
                         </div>       
                     </div>

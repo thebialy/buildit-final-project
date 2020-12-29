@@ -76,8 +76,8 @@ function EditPost ({post}) {
                                 onChange={(event) => setDescription(event.target.value)}
                             />
                         </div>
-                        <div className= "py-2">
-                            <button className="bg-indigo-700 text-white px-4 py-2 text-sm">EDIT</button>
+                        <div className= "py-2 flex justify-center">
+                            <button className="btn bg-black text-white px-4 py-2">EDIT</button>
                         </div>
                     </form>
                 </div>

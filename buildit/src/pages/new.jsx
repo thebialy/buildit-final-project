@@ -62,7 +62,7 @@ export default function New() {
           />
         </div>
         <div className= "py-2 flex justify-center">
-          <button className="bg-indigo-700 text-white px-4 py-2 text-sm">POST</button>
+          <button className="bg-black text-white px-4 py-2 btn">POST!</button>
         </div>
       </form>
     </div>

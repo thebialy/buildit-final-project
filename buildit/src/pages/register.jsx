@@ -42,12 +42,12 @@ async function handleSubmit(event) {
                             onChange={(event) => setPassword(event.target.value)}
                         />
                         <div className="flex justify-center">
-                            <button className="bg-black border border-green-800 text-white px-4 py-2">Register!</button> 
+                            <button className="btn bg-black border border-green-800 text-white px-4 py-2">Register!</button> 
                         </div>
                         <div className="pt-6 text-center text-white">
                             Have an account already?{" "} 
                             <Link href="/login">
-                                <a className="text-indigo-700 hover:underline">Login</a>
+                                <a className="a-btn underline">Login</a>
                             </Link>
                         </div>          
                     </div>

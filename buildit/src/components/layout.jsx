@@ -57,7 +57,7 @@ export function Header() {
     return (
     <div className="flex items-center justify-between text-white p-4 nav-bar">
         <div className="flex"> 
-            <SvgTerminal/>
+            <SvgTerminal/> &nbsp;
            { <Link href="/">
                 <a>console.log</a>
 

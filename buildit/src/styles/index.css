@@ -82,3 +82,12 @@ body {
 .vote-font {
     color: orange;
 }
+
+.btn {
+    border: #02803D solid 3px;
+    margin-top: 15px;
+}
+
+.a-btn {
+    color: #dddf00;
+}
