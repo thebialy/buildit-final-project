@@ -1,6 +1,5 @@
 import { Layout, Main } from "components/layout"
 import { useAuth } from "react-nhost";
-
 import { ListPostsSignedIn } from 'components/list-posts-signed-in'
 import { ListPostsSignedOut } from 'components/list-posts-signed-out'
 

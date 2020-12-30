@@ -40,7 +40,9 @@ export function PostListed({ post, signedIn }) {
                 <span className="circle yellow"></span>
                 <span className="circle green"></span>
             </div>
-            <div className="terminal-title">{post.user.display_name} -- -bash -- 70x32 </div>
+            <div className="terminal-title">
+                {post.user.display_name} -- -bash -- 70x32 
+            </div>
         </div>
         <div className="flex post-container bg-black">
 
