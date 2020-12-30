@@ -98,9 +98,13 @@ export function PostListed({ post, signedIn }) {
                 </div>
             </div>
             <div className="post-body">
-                <div className="text-3xl font-semibold">{post.title}</div>
+                <div className="text-3xl font-semibold">
+                    {post.title}
+                </div>
                 <hr/>
-                <div className="py-4">{post.description}</div>
+                <div className="py-4">
+                    {post.description}
+                </div>
                 {signedIn && post.user_id === auth.getClaim("x-hasura-user-id") && (
 
                 <div className="flex flex-row-reverse">
